@@ -8,6 +8,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/c56502c682.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>Acme Web Design | Welcome</title>
   </head>
@@ -15,10 +19,13 @@
     <header>
       <nav class="clearfix">
         <div class="clearfix">
-          <img src="./img/logo/logo_white.png" alt="Acme Web Design Logo" />
+          <img
+            src="./img/logo/logo_only_screen1.png"
+            alt="Acme Web Design Logo"
+          />
           <h1><span>Acme</span> Web Design</h1>
         </div>
-        <ul class="clearfix">
+        <ul id="navbar-list" class="clearfix">
           <li><a href="#">Technologies</a></li>
           <li><a href="#">Services</a></li>
           <li><a href="#">Projects</a></li>
@@ -26,6 +33,9 @@
           <li><a href="#">Careers</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
+        <a href="#" id="hamburger-button"
+          ><i id="hamburger-icon" class="fas fa-bars"></i
+        ></a>
       </nav>
     </header>
     <section class="showcase"></section>
@@ -35,5 +45,7 @@
     <section class="about"></section>
     <section class="careers"></section>
     <section class="contact"></section>
+
+    <script src="app.js"></script>
   </body>
 </html>
